@@ -1,4 +1,5 @@
-statData ="data/ex4.csv" #relative data used for our calculation. Separated by day and precipitation
+data_folder = "data"
+weather_file = data_folder + "/ex4.csv" #relative data used for our calculation. Separated by day and precipitation
 
 #comment here
 def getProcessedList(items_in_file):#shows rows of dates and precipitation as float separated by , and ending with \n
@@ -37,4 +38,4 @@ def getNAvg(file, N):
 
 
 
-print(getNAvg(statData, 3))
+print(getNAvg(weather_file, 3))
