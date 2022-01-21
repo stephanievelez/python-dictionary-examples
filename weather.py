@@ -1,5 +1,6 @@
 statData ="data/ex4.csv" #relative data used for our calculation. Separated by day and precipitation
 
+#comment here
 def getProcessedList(items_in_file):#shows rows of dates and precipitation as float separated by , and ending with \n
     list_precipitation =[None] * len(items_in_file) #this is a list where "none" holds a spot for each variable that the list contains in items_in file
     counter=0 #this helps in reiterating through the loop and placing the precipitation numbers in the following rows
